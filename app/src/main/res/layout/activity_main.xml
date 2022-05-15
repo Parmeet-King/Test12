@@ -23,4 +23,14 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:text="Admin Menu" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:layout_marginStart="15dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="Logout Service" />
 </RelativeLayout>

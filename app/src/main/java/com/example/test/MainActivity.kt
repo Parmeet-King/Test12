@@ -18,5 +18,9 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(applicationContext,AdminMenuActivity::class.java)
             startActivity(intent)
         }
+        var l = findViewById<Button>(R.id.logout).setOnClickListener() {
+            intent = Intent(applicationContext,ServiceActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
