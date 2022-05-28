@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         var c = findViewById<Button>(R.id.contacts).setOnClickListener() {
-            intent = Intent(applicationContext,ContactsActivity::class.java)
+            intent = Intent(applicationContext,ContactsActivity2::class.java)
             startActivity(intent)
         }
         var a = findViewById<Button>(R.id.admin).setOnClickListener() {

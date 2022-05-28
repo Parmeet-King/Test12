@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactsActivity2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/editTextname" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter City"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextcity" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter State"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextstate" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Country"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editTextcountry" />
+
+    <Button
+        android:text="Insert Data"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/buttoninsertdata" />
+
+</LinearLayout>
