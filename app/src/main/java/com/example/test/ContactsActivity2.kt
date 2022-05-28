@@ -10,7 +10,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
-
 @Suppress("DEPRECATION")
 class ContactsActivity2 : AppCompatActivity() {
     var name: EditText? = null

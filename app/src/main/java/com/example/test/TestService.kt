@@ -5,7 +5,6 @@ import android.content.Intent
 import android.os.IBinder
 import android.util.Log
 
-
 class TestService : Service() {
     val TAG = "TestService"
 
@@ -15,6 +14,7 @@ class TestService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         Log.e(TAG,"OnStartCommand")
+        // also can give countDownTimer for 10 mins
         return START_STICKY
     }
 
